@@ -1,0 +1,6 @@
+platform :ios do
+  desc "Lane to import"
+  lane :imported_lane do |options|
+    puts "I'm an imported lane. All works fine!"
+  end
+end
