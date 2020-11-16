@@ -1,11 +1,11 @@
 default_platform(:ios)
 
 import_fastfile(
-	files: [
-		{ path: 'fastlane/CommonFastfile', version: 'master'}
-	],
-	into: self,
-	gitRawUrl: "https://raw.githubusercontent.com/pawelini1/fastlane-plugin-import_fastfile"
+  files: [
+    { path: 'fastlane/CommonFastfile', version: 'master'}
+  ],
+  into: self,
+  gitRawUrl: "https://raw.githubusercontent.com/pawelini1/fastlane-plugin-import_fastfile"
 )
 
 platform :ios do
